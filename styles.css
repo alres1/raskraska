@@ -1,0 +1,25 @@
+﻿.hiddenBlick
+{
+    visibility: hidden;
+}
+.cursorpip {
+	cursor : url("brush.png"), auto;
+	}
+.menu-raskr {
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+    padding: 0;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    width: 180px;
+	font-family:'ArialNarrow', sans-serif;
+}
+.menu-raskr p {
+	padding: 10px 25px;
+	margin:0;
+	cursor:pointer;
+	} 
+.menu-raskr p:hover {
+	background-color:#DADADA;
+	} 
