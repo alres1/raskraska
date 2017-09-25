@@ -160,20 +160,32 @@ function SetColors(mousedown_event)
 
 </div>
 <div class="menu-raskr" id="raskmenu" style="display:none;">
-    	<p onclick="change('xmlid5'); openmenu()">«Элексир здоровья» ч.1</p>
-        <p onclick="change('xmlid6'); openmenu()">«Элексир здоровья» ч.2</p>
-        <p onclick="change('xmlid7'); openmenu()">«Элексир здоровья» ч.3</p>
-        <p onclick="change('xmlid8'); openmenu()">«Элексир здоровья» ч.4</p>
-        
-        <p onclick="change('xmlid9'); openmenu()">«Секреты стройности» ч.1</p>
-        <p onclick="change('xmlid10'); openmenu()">«Секреты стройности» ч.2</p>
-        <p onclick="change('xmlid11'); openmenu()">«Секреты стройности» ч.3</p>
-        <p onclick="change('xmlid12'); openmenu()">«Секреты стройности» ч.4</p>
-        
-    	<p onclick="change('xmlid14'); openmenu()">«Зарядка для всех» ч.1</p>
-        <p onclick="change('xmlid2'); openmenu()">«Зарядка для всех» ч.2</p>
-        <p onclick="change('xmlid3'); openmenu()">«Зарядка для всех» ч.3</p>
-        <p onclick="change('xmlid4'); openmenu()">«Зарядка для всех» ч.4</p>
+        <ul>
+            <li class="first_menu">«Элексир здоровья»
+                <ul class="sub">
+                    <li onclick="change('xmlid5'); openmenu()">часть 1</li>
+                    <li onclick="change('xmlid6'); openmenu()">часть 2</li>
+                    <li onclick="change('xmlid7'); openmenu()">часть 3</li>
+                    <li onclick="change('xmlid8'); openmenu()">часть 4</li>
+                </ul>
+            </li>
+            <li class="first_menu">«Секреты стройности»
+                <ul class="sub">
+                    <li onclick="change('xmlid9'); openmenu()">часть 1</li>
+                    <li onclick="change('xmlid10'); openmenu()">часть 2</li>
+                    <li onclick="change('xmlid11'); openmenu()">часть 3</li>
+                    <li onclick="change('xmlid12'); openmenu()">часть 4</li>
+                </ul>
+            </li>
+            <li class="first_menu">«Зарядка для всех»
+                <ul class="sub">
+                    <li onclick="change('xmlid14'); openmenu()">часть 1</li>
+                    <li onclick="change('xmlid2'); openmenu()">часть 2</li>
+                    <li onclick="change('xmlid3'); openmenu()">часть 3</li>
+                    <li onclick="change('xmlid4'); openmenu()">часть 4</li>
+                </ul>
+            </li>
+        </ul>
         
 </div>	
 
