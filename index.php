@@ -82,6 +82,11 @@ function SetColors(mousedown_event)
 <?php include ('seria2/rask3.php'); ?>
 <?php include ('seria2/rask4.php'); ?>
 
+<?php include ('seria3/rask1.php'); ?>
+<?php include ('seria3/rask2.php'); ?>
+<?php include ('seria3/rask3.php'); ?>
+<?php include ('seria3/rask4.php'); ?>
+
 <?php include ('seria4/rask1.php'); ?>
 <?php include ('seria4/rask2.php'); ?>
 <?php include ('seria4/rask3.php'); ?>
@@ -175,6 +180,14 @@ function SetColors(mousedown_event)
                     <li onclick="change('xmlid10'); openmenu()">часть 2</li>
                     <li onclick="change('xmlid11'); openmenu()">часть 3</li>
                     <li onclick="change('xmlid12'); openmenu()">часть 4</li>
+                </ul>
+            </li>
+            <li class="first_menu">"Жизненная энергия"
+                <ul class="sub">
+                    <li onclick="change('xmlid15'); openmenu()">часть 1</li>
+                    <li onclick="change('xmlid16'); openmenu()">часть 2</li>
+                    <li onclick="change('xmlid17'); openmenu()">часть 3</li>
+                    <li onclick="change('xmlid18'); openmenu()">часть 4</li>
                 </ul>
             </li>
             <li class="first_menu">«Зарядка для всех»
