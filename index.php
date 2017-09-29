@@ -92,6 +92,21 @@ function SetColors(mousedown_event)
 <?php include ('seria4/rask3.php'); ?>
 <?php include ('seria4/rask4.php'); ?>
 
+<?php include ('seria5/rask1.php'); ?>
+<?php include ('seria5/rask2.php'); ?>
+<?php include ('seria5/rask3.php'); ?>
+<?php include ('seria5/rask4.php'); ?>
+
+<?php include ('seria6/rask1.php'); ?>
+<?php include ('seria6/rask2.php'); ?>
+<?php include ('seria6/rask3.php'); ?>
+<?php include ('seria6/rask4.php'); ?>
+
+<?php include ('seria7/rask1.php'); ?>
+<?php include ('seria7/rask2.php'); ?>
+<?php include ('seria7/rask3.php'); ?>
+<?php include ('seria7/rask4.php'); ?>
+
 <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M477.1,305.1"/>
 <!--<polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 	497.3,185.7 460.6,197.7 460.6,325.7 "/>-->
@@ -198,6 +213,31 @@ function SetColors(mousedown_event)
                     <li onclick="change('xmlid4'); openmenu()">часть 4</li>
                 </ul>
             </li>
+            <li class="first_menu">"Как научить легко вставать по утрам?"
+                <ul class="sub">
+                    <li onclick="change('xmlid19'); openmenu()">часть 1</li>
+                    <li onclick="change('xmlid20'); openmenu()">часть 2</li>
+                    <li onclick="change('xmlid21'); openmenu()">часть 3</li>
+                    <li onclick="change('xmlid22'); openmenu()">часть 4</li>
+                </ul>
+            </li>
+            <li class="first_menu">"День рождения доктора Цитовира"
+                <ul class="sub">
+                    <li onclick="change('xmlid23'); openmenu()">часть 1</li>
+                    <li onclick="change('xmlid24'); openmenu()">часть 2</li>
+                    <li onclick="change('xmlid25'); openmenu()">часть 3</li>
+<!--                    <li onclick="change('xmlid26'); openmenu()">часть 4</li>-->
+                </ul>
+            </li>
+            <li class="first_menu">"Стать высоким"
+                <ul class="sub">
+                    <li onclick="change('xmlid27'); openmenu()">часть 1</li>
+                    <li onclick="change('xmlid28'); openmenu()">часть 2</li>
+                    <li onclick="change('xmlid29'); openmenu()">часть 3</li>
+                    <li onclick="change('xmlid30'); openmenu()">часть 4</li>
+                </ul>
+            </li>
+            
         </ul>
         
 </div>	
